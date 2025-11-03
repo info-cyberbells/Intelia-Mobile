@@ -7,7 +7,8 @@ export const lightTheme = {
     text: '#424242',
     subText: '#BDBDBD',
     border: '#E0E0E0',
-    white:'#fff'
+    white:'#fff',
+    validationColor:'#FF3B30'
 };
 
 export const darkTheme = {
@@ -19,4 +20,5 @@ export const darkTheme = {
     text: '#424242',
     subText: '#BBBBBB',
     border: '#BDBDBD',
+      validationColor:'#FF3B30'
 };
