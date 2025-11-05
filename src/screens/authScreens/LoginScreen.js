@@ -158,7 +158,7 @@ export default LoginScreen;
 
 const styles = (theme) => StyleSheet.create({
   main: { flex: 1 },
-  innerMain: { flex: 1, padding: 18, justifyContent: 'space-between' },
+  innerMain: { flex: 1, padding: 18, justifyContent:"space-around" },
   headerText: { fontSize: moderateScale(24), color: theme.text, fontFamily: Fonts.RubikBold },
   subHeaderText: { fontSize: moderateScale(12), color: theme.subText, fontFamily: Fonts.RubikMedium },
   frontBox: { marginTop: 10 },
