@@ -5,7 +5,7 @@ export const saveUserData = async (userData) => {
   try {
     if (userData?.user) {
       await AsyncStorage.setItem('user', JSON.stringify(userData.user));
-      await AsyncStorage.setItem('userRole', JSON.stringify(userData.user.type));
+      await AsyncStorage.setItem('userRole', JSON.stringify(userData.user.role));
       if (userData?.token) {
           await AsyncStorage.setItem('token', JSON.stringify(userData.token));
       }

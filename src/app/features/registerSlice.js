@@ -44,7 +44,7 @@ export const loadInitialState = createAsyncThunk(
     async () => {
         try {
             const storedData = await getUserData();
-            const { user, token } = storedData || {};
+            const { user, token , userRole} = storedData || {};
             return {
                 user: user || null,
                 token: token || null,
@@ -52,7 +52,6 @@ export const loadInitialState = createAsyncThunk(
                 isLoggedIn: !!token,
             };
         } catch (error) {
-            // console.error('Error in loadInitialState:', error);
             throw error;
         }
     }
