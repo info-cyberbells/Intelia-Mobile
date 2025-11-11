@@ -1,4 +1,3 @@
-android/
 *.iml
 .idea/
 .gradle
@@ -10,3 +9,14 @@ yarn-error.log*
 *.log
 .env
 Thumbs.db
+
+/android/.gradle/
+/android/app/build/
+/android/build/
+/.gradle/
+/build/
+**/local.properties
+*.jks
+*.keystore
+android/app/debug.keystore
+android/app/google-services.json
