@@ -17,6 +17,4 @@ Thumbs.db
 /build/
 **/local.properties
 *.jks
-*.keystore
-android/app/debug.keystore
 android/app/google-services.json
